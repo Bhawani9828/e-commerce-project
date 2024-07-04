@@ -39,7 +39,7 @@ export default function ProductsPage() {
 
     if (loading) return <p>Loading...</p>
     if (error) return <p>{error}</p>
-    if (products.length === 0) return <p>No products </p>
+    if (products.length === 0) return <p>No products found.</p>
 
     return (
         <section className='h-full w-full'>
